@@ -17,12 +17,12 @@
    - pwd显示家目录；只要用vscode打开项目根目录，终端就会自动以项目根目录为当前目录。
 
 4. 终端美化：需要修改`.bash_profile`
-<img src="../assets/00_Preparation_2026-01-18-15-02-28.png" width="80%" align="center" />
+<img src="../../assets/00_Preparation_2026-01-18-15-02-28.png" width="80%" align="center" />
 
 ---
 
 #### 终端 基本操作：
-<img src="../assets/00_Preparation_2026-01-18-12-01-06.png" width="80%" align="center" />
+<img src="../../assets/00_Preparation_2026-01-18-12-01-06.png" width="80%" align="center" />
 
 此外也可以参照 [UNIX tutorial](https://chillyhigh.github.io/CS61A-CN/articles/unix.html)。
 
@@ -70,5 +70,24 @@
 - 写代码后：`python ok -q <函数名> --local`，运行某一个具体的问题测试；
 - 最后，`python ok --local`，运行所有测试;
 
+自定义测试脚本：
+- 在lab文件夹下，新建一个名为mytests.rst文件(rst是python官方文档的标准格式)
+- 文件内容例如：
+```rst
+Suite my_custom_suite  （定义一组测试）
+
+    >>> from lab00 import *  （必要）
+    
+    Case strict_check   （定义具体的测试案例）
+        >>> twenty_twenty()
+        2020
+        
+    Case math_check
+        >>> 1 + 1
+        2
+        >>> abs(-5)
+        5
+```
+- `python ok -t --local`, 若要看详细的输出，加上 -v。
 ---
 
