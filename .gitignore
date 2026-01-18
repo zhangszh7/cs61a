@@ -1,4 +1,14 @@
+# Ignore system files（macOS）
+.DS_Store
+
+# Ignore VSCode settings
+.vscode/
+
+# CS61A ok autograder files
+.ok_storage*
+.ok_history
+.ok_log
+
+# Python cache
 __pycache__/
 *.pyc
-.DS_Store
-.vscode/
