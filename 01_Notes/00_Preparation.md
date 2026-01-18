@@ -17,11 +17,12 @@
    - pwd显示家目录；只要用vscode打开项目根目录，终端就会自动以项目根目录为当前目录。
 
 4. 终端美化：需要修改`.bash_profile`
-![](../assets/00_Preparation_2026-01-18-15-02-28.png)
+<img src="../assets/00_Preparation_2026-01-18-15-02-28.png" width="500" align="center" />
 ---
 
 #### 终端 基本操作：
-![](../assets/00_Preparation_2026-01-18-12-01-06.png)
+<img src="../assets/00_Preparation_2026-01-18-12-01-06.png" width="500" align="center" />
+
 此外也可以参照 [UNIX tutorial](https://chillyhigh.github.io/CS61A-CN/articles/unix.html)。
 
 ---
