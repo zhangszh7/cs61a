@@ -47,7 +47,7 @@ Q: execution 和 evaluation 的区别是什么？
 > The possibility of binding names to values and later retrieving those values by name means that the interpreter must maintain some sort of memory that keeps track of the names, values, and bindings. **This memory is called an *environment*.**
 
 - pure function 和 non-pure function：
-  - 纯函数只返回值；非纯函数有副作用，可以改变环境。
+  - 纯函数只返回值；非纯函数不仅可以返回值，也有副作用，可以改变环境。
 
 
 ---
@@ -69,4 +69,16 @@ Q: execution 和 evaluation 的区别是什么？
   - 函数定义
 
 - a function signature 用于构建 local frame（区别于 global frame）
+  
+
+#### Homework 01
+largest_factor(n):
+- factor是成对的且都小于 n/2
+- n % factor = 0
+
+hailstone:
+- 冰雹猜想，正整数n开始，偶数则除以2，奇数则乘以3再加1，直到1。
+
+#### Q & A
+Q: frame 在定义函数的时候创建还是在调用函数的时候创建
   
