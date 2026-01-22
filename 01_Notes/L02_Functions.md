@@ -1,4 +1,5 @@
-#### Problem
+# Problem
+
 Q: 什么是 environment？ 包含定义、变量名以及 bindings?
 
 Q: execution 和 evaluation 的区别是什么？
@@ -7,7 +8,8 @@ Q: execution 和 evaluation 的区别是什么？
 
 
 
-#### Chapter 1.1 Getting Started
+# Chapter 1.1 Getting Started
+
 - 从REPL（read-eval-print-loop）开始，体验最基础的交互过程；（ai推荐安装 IPython）
 
 - Python编程里5个重要的概念：
@@ -26,7 +28,8 @@ Q: execution 和 evaluation 的区别是什么？
     - 寻求帮助，不论是问其他人还是浏览博客论坛，学会团队协作解决问题；
 
 
-#### Chapter 1.2 Elements of Programming
+# Chapter 1.2 Elements of Programming
+
 任何一种强大的语言都具备三种机制：
 - 基本的表达式和语句
 - 组合方法
@@ -50,9 +53,8 @@ Q: execution 和 evaluation 的区别是什么？
   - 纯函数只返回值；非纯函数不仅可以返回值，也有副作用，可以改变环境。
 
 
----
+## Lecture 2
 
-#### Lecture 2
 - 所有的表达式都可以用 函数调用表达式 来等效代替。
 
 表达式的类型：
@@ -71,7 +73,8 @@ Q: execution 和 evaluation 的区别是什么？
 - a function signature 用于构建 local frame（区别于 global frame）
   
 
-#### Homework 01
+# Homework 01
+
 largest_factor(n):
 - factor是成对的且都小于 n/2
 - n % factor = 0
@@ -79,6 +82,6 @@ largest_factor(n):
 hailstone:
 - 冰雹猜想，正整数n开始，偶数则除以2，奇数则乘以3再加1，直到1。
 
-#### Q & A
+# Q & A
 Q: frame 在定义函数的时候创建还是在调用函数的时候创建
   
