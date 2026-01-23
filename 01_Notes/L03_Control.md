@@ -74,5 +74,16 @@ f(x)
 
 - make sure your editor truns the input key "tab" into "spaces"(typically 4 spaces).
 
+# Debugging
 
+- Traceback Message: file name, line number, function name, "most recent call last".
+- Error Message
 
+Techniques:
+- running doctests
+- ( before and after writing code )writing tests: more doctests, your own testing functions. Don't forget to test **edge cases**.
+- using `print` statement: when using `ok`, `"Debug: "` is needed to be ignored by `ok`.
+- using a global variable `debug = True` as a switch to turn on the `print` statements.
+- using `REPL` by `python ok file.py -i --local`.
+- using `PythonTutor` by `python ok -q <question name> --trace --local`.
+- using `assert` statements.
