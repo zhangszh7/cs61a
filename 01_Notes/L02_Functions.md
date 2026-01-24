@@ -1,4 +1,4 @@
-# Problem
+# Question
 
 Q: 什么是 environment？ 包含定义、变量名以及 bindings?
 
