@@ -38,4 +38,4 @@ Functions that  manipulate functions are called higher-order functions.
 
 when you have finished the code, taking some time to think about the space for simplifying or improving the implementiong of the underlying logic.
 - control expressions: and, or, not; make good use of `short-circuitint`.
-- conditional expressions: 
+- conditional expressions 
