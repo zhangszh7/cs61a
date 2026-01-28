@@ -12,6 +12,8 @@
 
 - make good use of higher-order functions. Don't be afraid to make a mistake. 
 
-# Phase 2: Commentary
+# Conclusion
 
-
+- This project is simple and all you need is following the Project Instruction. 
+- It is an easy but very interesting project.
+- It can help you understand and master the higher-order functions.
