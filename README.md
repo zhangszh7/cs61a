@@ -3,7 +3,7 @@
 
 1-19 Lecture 1 + Chapter 1.1
 
-1-20 Lecture 2 + Chapter 1.2
+1-20 Lecture 2 + Chapter 1.2 + hw01
 
 1-21 & 1.22 Lecture 3 + Chapter 1.3, 1.4, 1.5
 
@@ -11,6 +11,6 @@
 
 1.25 & 1.26 Dis01 + Project 1: phase 1
 
-1.27 Project 2: phase 2 & 3
+1.27 Project 1: phase 2 & 3
 
-1.28 Project 3: Lecture 5，6 + lab02
+1.28 Lecture 5，6 + lab02
