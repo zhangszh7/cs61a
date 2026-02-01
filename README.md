@@ -11,3 +11,4 @@
 |1-28      |   Lecture 5，6 + `lab02`|
 |1-29 & 30 |  Lecture 7 + `disc02`|
 |1-31      |  `lab03` + `midterm1`|
+| 2-1   | Lectuer 8, 9 + Chapter 1.7|
