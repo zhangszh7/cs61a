@@ -14,3 +14,4 @@
 | 2-1 ~ 2-2   | Lectuer 8, 9 + `disc03` + `hw02` |
 | 2-3 ~ 2-6 | Lecture 10, 11, 12 + `lab04` + `disc04` +`project2` |
 | 2-7 ~ 2-10 | Lecture 13, 14 + `lab05`|
+| 2-11 ~ 2-13| Lecture 15 + `hw03`|
