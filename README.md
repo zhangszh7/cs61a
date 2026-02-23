@@ -15,3 +15,4 @@
 | 2-3 ~ 2-6 | Lecture 10, 11, 12 + `lab04` + `disc04` +`project2` |
 | 2-7 ~ 2-10 | Lecture 13, 14 + `lab05`|
 | 2-11 ~ 2-13| Lecture 15 + `hw03`|
+| 2-22 & 23 | Lecture 16 + `lab06` |

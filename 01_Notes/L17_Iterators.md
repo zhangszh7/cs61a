@@ -1,0 +1,9 @@
+- lazy computation
+- iter()
+- next()
+- sequential/random access
+- StopIteration
+- iterable value
+- dictionary: keys, values, items.
+- Generator: created by a generator function which can `yield` multiple values instead of `return` once.
+- `yield from`: yield all values from an iterable

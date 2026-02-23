@@ -75,3 +75,17 @@
 # print(t)
 # print(prune_binary(t, ['01', '110', '100']))
 
+
+
+# def combo(a, b):
+#     """
+#     >>> combo(1234, 9123)
+#     91234
+#     """
+#     if a * b == 0:
+#         return a + b
+#     elif a % 10 == b % 10:
+#         return combo(a // 10, b // 10) * 10 + a % 10
+
+#     return min(combo(a//10, b)*10 + a%10, combo(a, b//10 )* 10 + b %10)
+
