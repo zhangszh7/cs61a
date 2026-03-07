@@ -291,7 +291,7 @@ class FireAnt(Ant):
             for bee in self.place.bees[:]:
                 bee.reduce_health(self.damage)
 
-        Ant.reduce_health(self, amount)
+        super().reduce_health(amount)
         # END Problem 5
 
 # BEGIN Problem 6
@@ -730,9 +730,10 @@ class LaserAnt(ThrowerAnt):
         insects_and_distances = self.insects_in_front(gamestate.beehive)
         for insect, distance in insects_and_distances.items():
             damage = self.calculate_damage(distance)
-            insect.reduce_health(damage)
-            if damage:
-                self.insects_shot += 1
+            if insect.health > 0:
+                insect.reduce_health(damage)
+                if damage:
+                    self.insects_shot += 1
 
 
 ##################
