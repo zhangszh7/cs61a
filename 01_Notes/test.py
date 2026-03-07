@@ -89,3 +89,16 @@
 
 #     return min(combo(a//10, b)*10 + a%10, combo(a, b//10 )* 10 + b %10)
 
+class Account:
+    interest = 0.2
+    def __init__(self, name):
+        self.balance = 0
+
+user1 = Account("zhang")
+user2 = Account("zhu")
+print(user1.interest)
+print(user2.interest)
+user1.interest = 1
+print(user1.interest)
+Account.interest = 2
+print(user2.interest)
