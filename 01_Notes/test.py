@@ -89,16 +89,45 @@
 
 #     return min(combo(a//10, b)*10 + a%10, combo(a, b//10 )* 10 + b %10)
 
-class Account:
-    interest = 0.2
-    def __init__(self, name):
-        self.balance = 0
 
-user1 = Account("zhang")
-user2 = Account("zhu")
-print(user1.interest)
-print(user2.interest)
-user1.interest = 1
-print(user1.interest)
-Account.interest = 2
-print(user2.interest)
+from operator import mul
+
+class Tree:
+    def __init__(self, label, branches=[]):
+        for b in branches:
+            assert isinstance(b, Tree)
+        self.label = label
+        self.branches = branches
+            
+    def is_leaf(self):
+        return not self.branches
+
+
+
+def find_paths(t, entry):
+
+    paths = []
+    if t.label == entry:
+        paths.append([t.label])
+    for b in t.branches:
+        for path in find_paths(b, entry):
+            paths.append([t.label] + path)
+    return paths
+
+
+def combine_tree(t1, t2, combiner):
+    """
+    >>> a = Tree(1, [Tree(2, [Tree(3)])])
+    >>> b = Tree(4, [Tree(5, [Tree(6)])])
+    >>> combined = combine_tree(a, b, mul)
+    >>> combined.label
+    4
+    >>> combined.branches[0].label
+    10
+    """
+
+    branches = []
+    for b1, b2 in zip(t1.branches, t2.branches): 
+        branches.append(combine_tree(b1, b2, combiner) )
+    
+    return Tree(combiner(t1.label, t2.label), branches)
