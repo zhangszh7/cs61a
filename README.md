@@ -21,3 +21,4 @@
 | 3-14 ~ 3-17 | Lecture 23, 24 + `disc08` + `lab09` |
 | 3-18 ~ 3-27 | Lecture 25, 26, 27, 28 + `disc09` + `lab10` + `hw06` |
 | 3-28 ~ 4-1 | Lecture 29 + `hw07` |
+| 4-2 ~ 4-18 | Lecture 30, 31 + `disc10` + `disc11` + `scheme` + `lab11`  |
