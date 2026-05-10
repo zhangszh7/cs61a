@@ -1,4 +1,3 @@
-
 # Lecture 5 & QA
 
 environment procedure:

@@ -1,6 +1,3 @@
-# Question
-
-
 # Chapter 1.6 Higher-Order Functions
 
 Functions that  manipulate functions are called higher-order functions.

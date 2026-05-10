@@ -61,7 +61,7 @@ x = 3
 def f():
     print(x)
     x = 4
-    pritn(x)
+    print(x)
 f()
 
 # instead this's correct.

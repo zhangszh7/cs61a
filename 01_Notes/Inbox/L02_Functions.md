@@ -61,8 +61,6 @@ Q: execution 和 evaluation 的区别是什么？
 - primitive expression: operator、numeral、name
 - call expression：function call
 
-**environment diagrams:**
-<img src="../assets/L02_Functions_2026-01-20-11-35-59.png" width="80%" align="center" />
 
 - an environment is a sequence of frames.
   
